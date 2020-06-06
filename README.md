@@ -1,8 +1,6 @@
 # RainyNews
 A news and weather android native app
 
--Name: Tedi
--Surname: Elmas
 
 -Project Description: "Rainy News" is a news and weather app that lets you browse the news from
 different sources of different categories. The user can register and login with their personal account.
