@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="7"
+    android:background="@android:color/transparent"
+    android:backgroundTint="@color/dark"
+    android:baselineAligned="false"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="113dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/news_author"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="@string/time"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
+            android:shadowColor="#000"
+            android:shadowRadius="1.0"
+            android:text="@string/this_is_news_title"
+            android:textColor="#666666"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/sdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:minLines="2"
+            android:scrollHorizontally="true"
+            android:text="@string/this_is_news_description_bla_bla_bla"
+            android:textColor="#777777"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/galleryImage"
+            android:layout_width="76dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/todo" />
+
+        <Button
+            android:id="@+id/buttonBookmark"
+            android:layout_width="78dp"
+            android:layout_height="29dp"
+            android:background="@drawable/round_button"
+            android:text="@string/bookmark"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,46 @@
+-Name: Tedi
+-Surname: Elmas
+
+-Project Description: "Rainy News" is a news and weather app that lets you browse the news from
+different sources of different categories. The user can register and login with their personal account.
+The user can open news articles on their browser or bookmark them to read later.
+It also shows to the user the weather of a selected city or of his current location.
+The user's activity is saved by the app.
+
+-Available task:
+
+    -On app start up:
+        -Sign up --> User can register by using an email and a password (minimum length of 6 characters).
+        -Login --> User can login to the app by providing the email and password used to register.
+
+    -After login:
+        -The user is presented with a navigation bar on the lower part of the screen.
+         It has three options: "News", "Bookmarks" and "Weather".
+
+        -The user is directed by default to the "News" tab.
+            -Browse News --> User can scroll through the latest news from e specific new source.
+            -Open news --> User can click on a news article and the browser will open the respective web page.
+            -Bookmark --> The user can bookmark a news article in order to read the news article later.
+
+        -On the top bar of the app there is an options menu with two options.
+            -Sources --> Displays to the user certain categories. Each category contains news sources that are related
+             by that category.
+            -Logout --> Logs out the user from the app and redirects him to the log in view.
+
+        -The "Bookmarks" tab displays a list of news articles that the user has bookmarked from the "news" tab.
+            -Open news --> User can click on a news article and the browser will open the respective web page, just like
+             in the "news" tab.
+            -Delete bookmark --> User can delete the news article from his bookmarks list.
+
+        -The "Weather" tab display different meteorological information of a selected city. It shows the respective
+         weather icon, weather situation, humidity, pressure, degrees and time of calculation.
+            -Select City --> The user can enter the name of a city and the app will show the weather, and related info,
+             for that specific city.
+            -Degrees Celsius/Fahrenheit --> The user can select between the metric or the imperial system for
+             calculating the degrees.
+            -Get Current Location --> This option locates the position of the user and extracts the city in which
+             the user resides. It then retrieves weather information of that city.
+            -Remember City --> The app remembers the city the user has selected for weather information. When the app is closed
+             and opened again, the city will be one the user had previously chosen.
+
+-External sources: NewsAPI, OpenWeatherMapAPI, Picasso-Square Open Source, Firebase, Google Services, Weather-Icons.

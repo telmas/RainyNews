@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Rainy News</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">Delete</string>
+    <string name="news_author">News Author</string>
+    <string name="this_is_news_title">This is news title</string>
+    <string name="this_is_news_description_bla_bla_bla">This is news description bla bla bla...</string>
+    <string name="todo">TODO</string>
+    <string name="time">Time</string>
+    <string name="bookmark">BookMark</string>
+</resources>

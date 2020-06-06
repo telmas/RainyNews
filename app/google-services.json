@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613343237335",
+    "firebase_url": "https://finalproject-2f194.firebaseio.com",
+    "project_id": "finalproject-2f194",
+    "storage_bucket": "finalproject-2f194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613343237335:android:b82f373410fbb2ab",
+        "android_client_info": {
+          "package_name": "com.example.newsandweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613343237335-a6tvrder17jqb3i1s0fsq05e6d3t7vn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newsandweather",
+            "certificate_hash": "35fd984f65771084f634d659ae9c6fb28bf8f056"
+          }
+        },
+        {
+          "client_id": "613343237335-ocdcb9n362ksi3bqn0egochh8nbb15pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Gb5UKi_XPIWO4rr4K1kYR0uopZU6ANw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613343237335-ocdcb9n362ksi3bqn0egochh8nbb15pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
